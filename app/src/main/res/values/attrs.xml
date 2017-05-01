@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--有些属性可以是颜色属性，也可以是引用属性。
+    比如按钮的背景，可以把它指定为具体的颜色，也可以把它指定为
+    一张图片，所以用“|”来分隔不同的属性——reference|color-->
+    <declare-styleable name="TitleBar">
+        <attr name="title" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftImageDrawable" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightImageDrawable" format="reference|color" />
+        <attr name="rightText" format="string" />
+    </declare-styleable>
+</resources>
