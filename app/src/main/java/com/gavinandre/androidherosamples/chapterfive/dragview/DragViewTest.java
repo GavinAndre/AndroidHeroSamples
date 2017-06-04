@@ -1,4 +1,4 @@
-package com.gavinandre.androidherosamples.chapterfour;
+package com.gavinandre.androidherosamples.chapterfive.dragview;
 
 import android.app.Activity;
 import android.os.Bundle;

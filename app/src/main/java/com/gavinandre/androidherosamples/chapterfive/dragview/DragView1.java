@@ -1,36 +1,37 @@
-package com.gavinandre.androidherosamples.chapterfour;
+package com.gavinandre.androidherosamples.chapterfive.dragview;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 
-public class DragView3 extends View {
+public class DragView1 extends View {
 
     private int lastX;
     private int lastY;
 
-    public DragView3(Context context) {
+    public DragView1(Context context) {
         super(context);
         ininView();
     }
 
-    public DragView3(Context context, AttributeSet attrs) {
+    public DragView1(Context context, AttributeSet attrs) {
         super(context, attrs);
         ininView();
     }
 
-    public DragView3(Context context, AttributeSet attrs, int defStyleAttr) {
+    public DragView1(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         ininView();
     }
 
     private void ininView() {
+        // 给View设置背景颜色，便于观察
         setBackgroundColor(Color.BLUE);
     }
 
+    // 视图坐标方式
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         int x = (int) event.getX();
@@ -38,18 +39,20 @@ public class DragView3 extends View {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 // 记录触摸点坐标
-                lastX = (int) event.getX();
-                lastY = (int) event.getY();
+                lastX = x;
+                lastY = y;
                 break;
             case MotionEvent.ACTION_MOVE:
                 // 计算偏移量
                 int offsetX = x - lastX;
                 int offsetY = y - lastY;
-                ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) getLayoutParams();
-//                LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) getLayoutParams();
-                layoutParams.leftMargin = getLeft() + offsetX;
-                layoutParams.topMargin = getTop() + offsetY;
-                setLayoutParams(layoutParams);
+                // 在当前left、top、right、bottom的基础上加上偏移量
+                layout(getLeft() + offsetX,
+                        getTop() + offsetY,
+                        getRight() + offsetX,
+                        getBottom() + offsetY);
+//                        offsetLeftAndRight(offsetX);
+//                        offsetTopAndBottom(offsetY);
                 break;
         }
         return true;

@@ -1,4 +1,4 @@
-package com.gavinandre.androidherosamples.chapterfour;
+package com.gavinandre.androidherosamples.chapterfive.dragview;
 
 import android.content.Context;
 import android.graphics.Color;

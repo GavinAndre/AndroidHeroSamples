@@ -1,4 +1,4 @@
-package com.gavinandre.androidherosamples.chapterfour;
+package com.gavinandre.androidherosamples.chapterfive.draggroup;
 
 import android.content.Context;
 import android.support.v4.view.ViewCompat;
