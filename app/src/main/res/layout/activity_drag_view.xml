@@ -5,23 +5,23 @@
               android:orientation="vertical"
     >
 
-    <com.gavinandre.androidherosamples.chapterfour.DragView1
+    <com.gavinandre.androidherosamples.chapterfive.dragview.DragView1
         android:layout_width="100dp"
         android:layout_height="100dp"/>
 
-    <!--<com.gavinandre.androidherosamples.chapterfour.DragView2
+    <!--<chapterfive.DragView2
         android:layout_width="100dp"
         android:layout_height="100dp"/>-->
 
-    <!--<com.gavinandre.androidherosamples.chapterfour.DragView3
+    <!--<chapterfive.DragView3
         android:layout_width="100dp"
         android:layout_height="100dp"/>-->
 
-    <!--<com.gavinandre.androidherosamples.chapterfour.DragView4
+    <!--<chapterfive.DragView4
         android:layout_width="100dp"
         android:layout_height="100dp"/>-->
 
-    <!--<com.gavinandre.androidherosamples.chapterfour.DragView5
+    <!--<chapterfive.DragView5
         android:layout_width="100dp"
         android:layout_height="100dp"/>-->
 

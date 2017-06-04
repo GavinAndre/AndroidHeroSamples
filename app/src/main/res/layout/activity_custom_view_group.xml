@@ -13,25 +13,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@mipmap/test1" />
+            android:src="@mipmap/view_group_test1" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@mipmap/test2" />
+            android:src="@mipmap/view_group_test2" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@mipmap/test3" />
+            android:src="@mipmap/view_group_test3" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@mipmap/test4" />
+            android:src="@mipmap/view_group_test4" />
 
     </com.gavinandre.androidherosamples.chapterthree.customviewgroup.MyScrollView>
 </LinearLayout>
