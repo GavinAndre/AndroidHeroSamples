@@ -29,11 +29,18 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="LayerTest"/>
+
         <TextView
             android:id="@+id/chapter_six_text_view4"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="ImageColorTest"/>
+
+        <TextView
+            android:id="@+id/chapter_six_text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ImageShapeTest"/>
 
     </LinearLayout>
 

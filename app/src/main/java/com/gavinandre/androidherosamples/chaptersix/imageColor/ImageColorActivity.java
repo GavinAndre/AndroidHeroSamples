@@ -1,4 +1,4 @@
-package com.gavinandre.androidherosamples.chaptersix.image;
+package com.gavinandre.androidherosamples.chaptersix.imageColor;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,7 +16,7 @@ public class ImageColorActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_image);
+        setContentView(R.layout.activity_image_color);
         ButterKnife.bind(this);
     }
 

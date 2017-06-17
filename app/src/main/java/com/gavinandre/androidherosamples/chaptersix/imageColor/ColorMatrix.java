@@ -1,4 +1,4 @@
-package com.gavinandre.androidherosamples.chaptersix.image;
+package com.gavinandre.androidherosamples.chaptersix.imageColor;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -26,7 +26,7 @@ public class ColorMatrix extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_color_matrix);
+        setContentView(R.layout.activity_image_color_matrix);
         bitmap = BitmapFactory.decodeResource(getResources(),
                 R.mipmap.image_test1);
         mImageView = (ImageView) findViewById(R.id.imageview);

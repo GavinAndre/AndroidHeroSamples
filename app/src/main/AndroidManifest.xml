@@ -27,10 +27,18 @@
         <activity android:name=".chaptersix.canvaspaintbase.CanvasPaintActivity"/>
         <activity android:name=".chaptersix.clock.ClockActivity"/>
         <activity android:name=".chaptersix.layer.LayerActivity"/>
-        <activity android:name=".chaptersix.image.ImageColorActivity"/>
-        <activity android:name=".chaptersix.image.ColorMatrix"/>
-        <activity android:name=".chaptersix.image.PixelsEffect"/>
-        <activity android:name=".chaptersix.image.PrimaryColor"/>
+        <activity android:name=".chaptersix.imageColor.ImageColorActivity"/>
+        <activity android:name=".chaptersix.imageColor.ColorMatrix"/>
+        <activity android:name=".chaptersix.imageColor.PixelsEffect"/>
+        <activity android:name=".chaptersix.imageColor.PrimaryColor"/>
+        <activity android:name=".chaptersix.imageShape.ImageShapeActivity"/>
+        <activity
+            android:name=".chaptersix.imageShape.ImageMatrixTest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".chaptersix.imageShape.XfermodeViewTest"/>
+        <activity android:name=".chaptersix.imageShape.ReflectViewTest"/>
+        <activity android:name=".chaptersix.imageShape.FlagBitmapMeshTest"/>
+        <activity android:name=".chaptersix.imageShape.RoundRectTest"/>
     </application>
 
 </manifest>

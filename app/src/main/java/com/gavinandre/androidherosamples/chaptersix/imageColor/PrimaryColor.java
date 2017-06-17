@@ -1,4 +1,4 @@
-package com.gavinandre.androidherosamples.chaptersix.image;
+package com.gavinandre.androidherosamples.chaptersix.imageColor;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
