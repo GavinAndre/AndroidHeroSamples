@@ -11,6 +11,7 @@ import com.gavinandre.androidherosamples.chaptersix.clock.ClockActivity;
 import com.gavinandre.androidherosamples.chaptersix.imageColor.ImageColorActivity;
 import com.gavinandre.androidherosamples.chaptersix.imageShape.ImageShapeActivity;
 import com.gavinandre.androidherosamples.chaptersix.layer.LayerActivity;
+import com.gavinandre.androidherosamples.chaptersix.surfaceview.SurfaceViewActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -29,7 +30,7 @@ public class ChapterSixActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.chapter_six_text_view1, R.id.chapter_six_text_view2, R.id.chapter_six_text_view3,
-            R.id.chapter_six_text_view4, R.id.chapter_six_text_view5})
+            R.id.chapter_six_text_view4, R.id.chapter_six_text_view5,R.id.chapter_six_text_view6})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.chapter_six_text_view1:
@@ -46,6 +47,9 @@ public class ChapterSixActivity extends AppCompatActivity {
                 break;
             case R.id.chapter_six_text_view5:
                 startActivity(new Intent(this, ImageShapeActivity.class));
+                break;
+            case R.id.chapter_six_text_view6:
+                startActivity(new Intent(this, SurfaceViewActivity.class));
                 break;
         }
     }
