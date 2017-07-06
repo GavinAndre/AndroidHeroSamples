@@ -37,10 +37,10 @@ public class RoundRectShaderView extends View {
                 R.mipmap.ic_launcher);
         mBitmapShader = new BitmapShader(mBitmap,
                 Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
-//        mBitmap = BitmapFactory.decodeResource(getResources(),
-//                R.drawable.test);
-//        mBitmapShader = new BitmapShader(mBitmap,
-//                Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
+        //mBitmap = BitmapFactory.decodeResource(getResources(),
+        //        R.mipmap.shape_test);
+        //mBitmapShader = new BitmapShader(mBitmap,
+        //        Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
         mPaint = new Paint();
         mPaint.setShader(mBitmapShader);
         canvas.drawCircle(500, 250, 200, mPaint);

@@ -42,6 +42,12 @@
             android:layout_height="50dp"
             android:text="ImageShapeTest"/>
 
+        <TextView
+            android:id="@+id/chapter_six_text_view6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SurfaceViewTest"/>
+
     </LinearLayout>
 
 </LinearLayout>

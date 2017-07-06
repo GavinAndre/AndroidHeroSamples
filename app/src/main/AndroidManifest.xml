@@ -39,6 +39,10 @@
         <activity android:name=".chaptersix.imageShape.ReflectViewTest"/>
         <activity android:name=".chaptersix.imageShape.FlagBitmapMeshTest"/>
         <activity android:name=".chaptersix.imageShape.RoundRectTest"/>
+        <activity android:name=".chaptersix.imageShape.PathEffectViewTest"/>
+        <activity android:name=".chaptersix.surfaceview.SurfaceViewActivity"/>
+        <activity android:name=".chaptersix.surfaceview.SinViewTest"/>
+        <activity android:name=".chaptersix.surfaceview.SimpleDrawTest"/>
     </application>
 
 </manifest>

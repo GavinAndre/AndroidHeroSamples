@@ -19,6 +19,10 @@ public class ImageShapeActivity extends Activity {
         startActivity(new Intent(this, ReflectViewTest.class));
     }
 
+    public void btnPathEffect(View view) {
+        startActivity(new Intent(this, PathEffectViewTest.class));
+    }
+
     public void btnImageMatrix(View view) {
         startActivity(new Intent(this, ImageMatrixTest.class));
     }
