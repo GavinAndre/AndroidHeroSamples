@@ -20,9 +20,11 @@
         <activity android:name=".chapterthree.customview.CustomViewActivity"/>
         <activity android:name=".chapterthree.customviewgroup.CustomViewGroupActivity"/>
         <activity android:name=".chapterthree.customviewlayout.CustomViewLayoutActivity"/>
+
         <activity android:name=".chapterfive.ChapterFiveActivity"/>
         <activity android:name=".chapterfive.dragview.DragViewTest"/>
         <activity android:name=".chapterfive.draggroup.DragViewGroupTest"/>
+
         <activity android:name=".chaptersix.ChapterSixActivity"/>
         <activity android:name=".chaptersix.canvaspaintbase.CanvasPaintActivity"/>
         <activity android:name=".chaptersix.clock.ClockActivity"/>
@@ -43,6 +45,9 @@
         <activity android:name=".chaptersix.surfaceview.SurfaceViewActivity"/>
         <activity android:name=".chaptersix.surfaceview.SinViewTest"/>
         <activity android:name=".chaptersix.surfaceview.SimpleDrawTest"/>
+
+        <activity android:name=".chapterseven.ChapterSevenActivity"/>
+        <activity android:name=".chapterseven.customanim.CustomAnimActivity"/>
     </application>
 
 </manifest>
