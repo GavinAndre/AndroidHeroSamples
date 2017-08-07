@@ -33,6 +33,12 @@
             android:layout_height="50dp"
             android:text="Android绘图机制与处理技巧"/>
 
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Android动画机制与使用技巧"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
