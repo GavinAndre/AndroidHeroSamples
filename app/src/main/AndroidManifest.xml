@@ -48,6 +48,11 @@
 
         <activity android:name=".chapterseven.ChapterSevenActivity"/>
         <activity android:name=".chapterseven.customanim.CustomAnimActivity"/>
+        <activity android:name=".chapterseven.customaniminstance.CustomAnimInstanceActivity"/>
+        <activity android:name=".chapterseven.customaniminstance.DropTest"/>
+        <activity android:name=".chapterseven.customaniminstance.PropertyTest"/>
+        <activity android:name=".chapterseven.customaniminstance.TimerTest"/>
+        <activity android:name=".chapterseven.svganim.SVGAnimActivity"/>
     </application>
 
 </manifest>

@@ -19,6 +19,18 @@
             android:layout_height="50dp"
             android:text="CustomAnim"/>
 
+        <TextView
+            android:id="@+id/chapter_seven_text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CustomAnimInstance"/>
+
+        <TextView
+            android:id="@+id/chapter_seven_text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SVGAnim"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
