@@ -53,6 +53,14 @@
         <activity android:name=".chapterseven.customaniminstance.PropertyTest"/>
         <activity android:name=".chapterseven.customaniminstance.TimerTest"/>
         <activity android:name=".chapterseven.svganim.SVGAnimActivity"/>
+
+        <activity android:name=".chaptertwelve.ChapterTwelveActivity"/>
+        <activity android:name=".chaptertwelve.palette.PaletteActivity"
+            android:theme="@style/AppTheme.Material"/>
+        <activity android:name=".chaptertwelve.elevation.ElevationActivity"/>
+        <activity android:name=".chaptertwelve.tinting.TintingActivity"/>
+        <activity android:name=".chaptertwelve.clipping.ClippingActivity"/>
+
     </application>
 
 </manifest>
