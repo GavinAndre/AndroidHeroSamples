@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.gavinandre.androidherosamples.R;
+import com.gavinandre.androidherosamples.chaptertwelve.cardview.CardViewActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.clipping.ClippingActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.elevation.ElevationActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.palette.PaletteActivity;
+import com.gavinandre.androidherosamples.chaptertwelve.recyclerview.RecyclerTest;
 import com.gavinandre.androidherosamples.chaptertwelve.tinting.TintingActivity;
 
 import butterknife.ButterKnife;
@@ -27,7 +29,10 @@ public class ChapterTwelveActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.chapter_twelve_text_view1, R.id.chapter_twelve_text_view2, R.id.chapter_twelve_text_view3, R.id.chapter_twelve_text_view4})
+    @OnClick({R.id.chapter_twelve_text_view1, R.id.chapter_twelve_text_view2,
+            R.id.chapter_twelve_text_view3, R.id.chapter_twelve_text_view4,
+            R.id.chapter_twelve_text_view5, R.id.chapter_twelve_text_view6
+    })
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
@@ -45,6 +50,14 @@ public class ChapterTwelveActivity extends AppCompatActivity {
                 break;
             case R.id.chapter_twelve_text_view4:
                 intent = new Intent(this, ClippingActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.chapter_twelve_text_view5:
+                intent = new Intent(this, RecyclerTest.class);
+                startActivity(intent);
+                break;
+            case R.id.chapter_twelve_text_view6:
+                intent = new Intent(this, CardViewActivity.class);
                 startActivity(intent);
                 break;
         }

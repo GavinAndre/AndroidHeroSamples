@@ -60,6 +60,8 @@
         <activity android:name=".chaptertwelve.elevation.ElevationActivity"/>
         <activity android:name=".chaptertwelve.tinting.TintingActivity"/>
         <activity android:name=".chaptertwelve.clipping.ClippingActivity"/>
+        <activity android:name=".chaptertwelve.recyclerview.RecyclerTest"/>
+        <activity android:name=".chaptertwelve.cardview.CardViewActivity"/>
 
     </application>
 

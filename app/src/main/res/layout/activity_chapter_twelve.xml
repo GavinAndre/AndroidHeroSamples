@@ -35,6 +35,16 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Clipping"/>
+        <TextView
+            android:id="@+id/chapter_twelve_text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="RecyclerView"/>
+        <TextView
+            android:id="@+id/chapter_twelve_text_view6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CardView"/>
 
     </LinearLayout>
 
