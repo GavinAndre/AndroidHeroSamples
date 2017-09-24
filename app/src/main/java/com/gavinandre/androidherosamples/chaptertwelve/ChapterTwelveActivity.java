@@ -12,6 +12,7 @@ import com.gavinandre.androidherosamples.chaptertwelve.elevation.ElevationActivi
 import com.gavinandre.androidherosamples.chaptertwelve.palette.PaletteActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.recyclerview.RecyclerTest;
 import com.gavinandre.androidherosamples.chaptertwelve.tinting.TintingActivity;
+import com.gavinandre.androidherosamples.chaptertwelve.transition.TransitionActivityA;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -31,7 +32,8 @@ public class ChapterTwelveActivity extends AppCompatActivity {
 
     @OnClick({R.id.chapter_twelve_text_view1, R.id.chapter_twelve_text_view2,
             R.id.chapter_twelve_text_view3, R.id.chapter_twelve_text_view4,
-            R.id.chapter_twelve_text_view5, R.id.chapter_twelve_text_view6
+            R.id.chapter_twelve_text_view5, R.id.chapter_twelve_text_view6,
+            R.id.chapter_twelve_text_view7
     })
     public void onViewClicked(View view) {
         Intent intent;
@@ -58,6 +60,10 @@ public class ChapterTwelveActivity extends AppCompatActivity {
                 break;
             case R.id.chapter_twelve_text_view6:
                 intent = new Intent(this, CardViewActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.chapter_twelve_text_view7:
+                intent = new Intent(this, TransitionActivityA.class);
                 startActivity(intent);
                 break;
         }

@@ -63,6 +63,9 @@
         <activity android:name=".chaptertwelve.recyclerview.RecyclerTest"/>
         <activity android:name=".chaptertwelve.cardview.CardViewActivity"/>
 
+        <activity android:name=".chaptertwelve.transition.TransitionActivityA"/>
+        <activity android:name=".chaptertwelve.transition.TransitionActivityB"/>
+
     </application>
 
 </manifest>
