@@ -10,9 +10,11 @@ import com.gavinandre.androidherosamples.chaptertwelve.anim.MDAnimActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.cardview.CardViewActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.clipping.ClippingActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.elevation.ElevationActivity;
+import com.gavinandre.androidherosamples.chaptertwelve.notification.NotificationActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.palette.PaletteActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.recyclerview.RecyclerTest;
 import com.gavinandre.androidherosamples.chaptertwelve.tinting.TintingActivity;
+import com.gavinandre.androidherosamples.chaptertwelve.toolbar.ToolbarActivity;
 import com.gavinandre.androidherosamples.chaptertwelve.transition.TransitionActivityA;
 
 import butterknife.ButterKnife;
@@ -34,7 +36,8 @@ public class ChapterTwelveActivity extends AppCompatActivity {
     @OnClick({R.id.chapter_twelve_text_view1, R.id.chapter_twelve_text_view2,
             R.id.chapter_twelve_text_view3, R.id.chapter_twelve_text_view4,
             R.id.chapter_twelve_text_view5, R.id.chapter_twelve_text_view6,
-            R.id.chapter_twelve_text_view7, R.id.chapter_twelve_text_view8
+            R.id.chapter_twelve_text_view7, R.id.chapter_twelve_text_view8,
+            R.id.chapter_twelve_text_view9, R.id.chapter_twelve_text_view10
     })
     public void onViewClicked(View view) {
         Intent intent;
@@ -69,6 +72,14 @@ public class ChapterTwelveActivity extends AppCompatActivity {
                 break;
             case R.id.chapter_twelve_text_view8:
                 intent = new Intent(this, MDAnimActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.chapter_twelve_text_view9:
+                intent = new Intent(this, ToolbarActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.chapter_twelve_text_view10:
+                intent = new Intent(this, NotificationActivity.class);
                 startActivity(intent);
                 break;
         }

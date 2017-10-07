@@ -71,6 +71,11 @@
         <activity android:name=".chaptertwelve.anim.RippleActivity"/>
         <activity android:name=".chaptertwelve.anim.ViewStateActivity"/>
 
+        <activity android:name=".chaptertwelve.toolbar.ToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".chaptertwelve.notification.NotificationActivity"/>
+
     </application>
 
 </manifest>
