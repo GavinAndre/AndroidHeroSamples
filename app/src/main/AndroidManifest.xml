@@ -66,6 +66,11 @@
         <activity android:name=".chaptertwelve.transition.TransitionActivityA"/>
         <activity android:name=".chaptertwelve.transition.TransitionActivityB"/>
 
+        <activity android:name=".chaptertwelve.anim.MDAnimActivity"/>
+        <activity android:name=".chaptertwelve.anim.CircularActivity"/>
+        <activity android:name=".chaptertwelve.anim.RippleActivity"/>
+        <activity android:name=".chaptertwelve.anim.ViewStateActivity"/>
+
     </application>
 
 </manifest>

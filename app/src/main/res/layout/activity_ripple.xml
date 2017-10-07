@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_bright">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/ripple"
+        android:text="有界波纹" />
+        <!--android:background="?android:attr/selectableItemBackground"-->
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:textColor="@android:color/white"
+        android:text="无界波纹" />
+
+</LinearLayout>
