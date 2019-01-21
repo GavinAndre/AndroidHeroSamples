@@ -19,12 +19,6 @@ public class LayerActivity extends Activity {
     public class MyLayer extends View {
 
         private Paint mPaint;
-        private static final int LAYER_FLAGS =
-                Canvas.MATRIX_SAVE_FLAG |
-                        Canvas.CLIP_SAVE_FLAG |
-                        Canvas.HAS_ALPHA_LAYER_SAVE_FLAG |
-                        Canvas.FULL_COLOR_LAYER_SAVE_FLAG |
-                        Canvas.CLIP_TO_LAYER_SAVE_FLAG;
 
         public MyLayer(Context context) {
             super(context);
@@ -37,7 +31,7 @@ public class LayerActivity extends Activity {
             mPaint.setColor(Color.BLUE);
             canvas.drawCircle(150, 150, 100, mPaint);
             //alpha 255不透明，127半透明，0全透明
-            canvas.saveLayerAlpha(0, 0, 400, 400, 255, LAYER_FLAGS);
+            canvas.saveLayerAlpha(0, 0, 400, 400, 255);
             mPaint.setColor(Color.RED);
             canvas.drawCircle(200, 200, 100, mPaint);
             canvas.restore();

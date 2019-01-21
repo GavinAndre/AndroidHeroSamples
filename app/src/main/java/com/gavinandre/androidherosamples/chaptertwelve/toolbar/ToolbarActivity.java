@@ -40,7 +40,7 @@ public class ToolbarActivity extends AppCompatActivity {
         mDrawerToggle = new ActionBarDrawerToggle(
                 this, mDrawerLayout, mToolbar,
                 R.string.abc_action_bar_home_description,
-                R.string.abc_action_bar_home_description_format);
+                R.string.abc_action_bar_up_description);
         mDrawerToggle.syncState();
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
